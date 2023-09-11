@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Colors for backgraound and twxt */
+:root[data-theme='dark'] {
+  --bg-primary: rgb(18, 18, 18);
+  --bg-secondary: rgb(38, 38, 38);
+  --bg-tertiary: rgb(58, 58, 58);
+  --text-primary: rgb(234, 234, 234);
+  --text-secondary: rgb(220, 220, 220);
+  --text-tertiary: rgb(180, 180, 180);
+}
+
+:root[data-theme='light'] {
+  --bg-primary: rgb(240, 240, 240);
+  --bg-secondary: rgb(220, 220, 220);
+  --bg-tertiary: rgb(200, 200, 200);
+  --text-primary: rgb(34, 34, 34);
+  --text-secondary: rgb(64, 64, 64);
+  --text-tertiary: rgb(100, 100, 100);
+}
+
+:root {
+  /*colors for Theme color */
+  --primary: rgb(60, 130, 245);
+  --primary-darker: rgb(20, 70, 160);
+  --primary-lighter: rgb(120, 170, 250);
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+
+  /* our css variables go here */
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.active-darkmode {
+  background: radial-gradient(circle, rgba(255, 225, 70, 1) 0%, rgba(255, 192, 0, 1) 100%);
+}
