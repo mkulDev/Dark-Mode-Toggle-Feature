@@ -2,12 +2,13 @@
 
 This repository contains a Dark Mode Toggle feature implemented in React. It allows users to switch between light and dark themes with a visually appealing animated button. The feature respects the user's system preference for dark mode and provides an interactive user experience.
 
-<img src=/src/assets/images/screen1.jpg>
-<img src=/src/assets/images/screen2.jpg>
+<img src=/src/assets/screen1.jpg width=600px>
+<img src=/src/assets/screen2.jpg width=600px>
 
+You can see live demo [here](https://dark-mode-features.netlify.app)
 To use this Dark Mode Toggle feature in your project, follow these steps:
 Clone the repository to your local machine:
-git clone
+git clone https://github.com/mkulDev/Dark-Mode-Toggle-Feature.git
 Navigate to the project directory:
 Install the required dependencies:
 
